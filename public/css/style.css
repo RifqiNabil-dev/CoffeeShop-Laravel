@@ -1,0 +1,239 @@
+
+html{
+    background-color: antiquewhite;
+    font-family: Poppins;
+}
+
+#home .btn {
+  background-color: #563925;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: lighter;
+  font-size: 17px;
+  
+}
+
+#home .btn:hover {
+  background-color: #2B1C12;
+}
+
+/*home*/
+#home {
+  background-image: url('../img/home.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #362417;
+  text-align: right;
+  padding: 150px 0;
+  min-height: 100vh; 
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+}
+
+#home .container {
+  width: 40%;
+  margin-left:40%;
+}
+
+#home h2 {
+  font-size: 48px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#home p {
+  font-size: 24px;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+#home2 {
+  background-image: url('../img/home2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #362417;
+  padding: 50px 20px;
+  text-align: center;
+  min-height: 100vh; 
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+}
+
+#home2 h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #362417;
+}
+
+#home2 p.subtitle {
+  font-size: 22px;
+  color: rgb(73, 72, 72);
+  margin-bottom: 30px;
+}
+
+#home2 .card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#home2 .card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#home2 .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#home2 .card img {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+#home2 .card h3 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+#home2 .card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+#home2 .card .price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2ba8fb;
+  margin-bottom: 10px;
+}
+
+#home2 .btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #563925;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#home2 .btn:hover {
+  background-color: #2B1C12;
+  box-shadow: 0 4px 10px #2B1C12;
+  transform: translateY(-2px);
+}
+
+#home2 .btn:active {
+  background-color: #563925;
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+#home3 {
+  background-image: url('../img/home3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #362417;
+  padding: 50px 0;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  font-family: Poppins;
+}
+
+#home3 h2 {
+  font-size: 48px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#home3 p {
+  font-size: 50px;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+#home3 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  width: 50%;
+  max-width: 1200px; 
+  margin-top: 40px;
+  margin-left:46%;
+
+}
+
+#home3 .about, #home3 .contact {
+  padding: 1rem;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+#home3 .about p, #home3 .contact p {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+#home3 .contact .description {
+
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+  color: #333; 
+}
+.contact .icon {
+  width: 24px; 
+  height: 24px; 
+  object-fit: contain; 
+}
+#home3 .contact-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #563925;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#home3 .contact-btn:hover {
+  background-color: #2B1C12;
+}
