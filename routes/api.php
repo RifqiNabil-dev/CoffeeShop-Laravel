@@ -8,4 +8,6 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-Route::resource('/product', ProductController::class);
+Route::middleware('throttle:10,1')->group(function () {
+    Route::resource('/product', ProductController::class);
+});
